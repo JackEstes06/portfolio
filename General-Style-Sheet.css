@@ -55,8 +55,8 @@ a {
   color: #81ED1D;
 }
 
-#Lab-1:active
-#Lab-1:active:visited {
+#Lab-1:active,
+#Lab-1:visited:active {
   color: #FF0000;
 }
 
