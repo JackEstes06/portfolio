@@ -3,30 +3,55 @@
   <head>
     <title>Jack's Awesome Test Website</title>
     <meta charset = 'UTF-8'/>
-    <link rel='stylesheet' href='General-Style-Sheet.css'/>		
+    <link rel='stylesheet' href='style-sheet.css'/>
   </head>
   <body>
-    <div class='synopsis'>
-      <h1><strong>About Me</strong></h1>
-      <p>Hi! My name is <strong>Jack Estes</strong>. I grew up in Gettysburg, 
-        Pennsylvania and I love to code, play sports, play video games, and 
-        play piano. I am 20 years old and attend BYU for college. I am majoring
-        in Computer Science and minoring in who knows what at this point 
-        ¯\_(ツ)_/¯.</p>
-    
-      <img src='Jack_Professional_Photo.JPG' class="center" id="pic-of-me"/>
-
-      <p>Here is a link to my first lab: <a href="lab1.jackestes06.com" 
-      id='Lab-1'>Lab 1</a></p>
-
+    <div class='header-container'>
+      <div class='header'>
+        <h1><strong>About Me</strong></h1>
+      </div>
     </div>
+
+    <div class='bio-container'>
+      <div class='bio'>
+        <p>Hi! My name is <strong>Jack Estes</strong>. I grew up in Gettysburg,
+          Pennsylvania and I love to code, play sports, play video games, and
+          play piano. I am 20 years old and attend BYU for college. I am majoring
+          in Computer Science and minoring in who knows what at this point
+          ¯\_(ツ)_/¯.</p>
+
+        <p>A fun fact about me is that I love to snowboard! Every year I wait
+          for the ski slopes to open so I can bomb the mountains. The fastest
+          I have clocked my speed at was 63 mph! However, I also ruined my back
+          from falling while going to fast and had to do physical therapy. So
+          moral of the story is to have fun but be safe while doing so ;)</p>
+      </div>
+
+      <div class='selfie-container'>
+        <img class="selfie" src='Jack_Professional_Photo.JPG'/>
+      </div>
+    </div>
+
+    <div class='first-lab'><p>Here is a link to my first lab:
+      <a href="lab1.jackestes06.com"/>Lab 1</a></p></div>
+
     <hr/>
 
-    <h2>More About Me</h2>
-    <ol>
-      <li><a href='/workexperience.html'>Work Experience</a></li>
-      <li><a href='/projects.html'>Projects</a></li>
-      <li><a href='contactinfo.html'>Contact Info</a></li>
-    </ol>
+    <div class='more-info'>
+      <h2 class='header-two'>More About Me</h2>
+      <ol>
+        <div class='links'>
+          <div class='workexperience'>
+            <li><a href='/workexperience.html'>Work Experience</a></li>
+          </div>
+          <div class='projects'>
+            <li><a href='/projects.html'>Projects</a></li>
+          </div>
+          <div class='contact-info'>
+            <li><a href='contactinfo.html'>Contact Info</a></li>
+          </div>
+        </div>
+      </ol>
+    </div>
   </body>
 </html>
