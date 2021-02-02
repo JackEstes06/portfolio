@@ -1,0 +1,65 @@
+body {
+  background-color: #E0E0E0;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ADABAB
+}
+
+li {
+  float: left;
+  border-right: 1px solid #000000;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.synopsis {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pic-of-me {
+  width: 550px;
+  height: 750px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#Lab-1:hover,
+#Lab-1:hover:visited {
+  color: #81ED1D;
+}
+
+#Lab-1:active
+#Lab-1:active:visited {
+  color: #FF0000;
+}
+
+#Lab-1:visited {
+  color: #C858F4;
+}
